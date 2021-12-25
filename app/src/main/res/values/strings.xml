@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">form 11</string>
+    <string name="email">ایمیل</string>
+    <string name="sabt">ثبت نام</string>
+    <string name="ghavanin">قوانین و مقررات را قبول میکنم</string>
+    <string name="address">آدرس</string>
+    <string name="name">نام</string>
+    <string name="lname">نام خانوادگی</string>
+    <string name="ttpass">تکرار رمز عبور</string>
+    <string name="pass">رمز عبور</string>
+    <string name="phonw">شماره تلفن</string>
+    <string name="news">من را از اخرین اخبار و اپدیت ها با خبر کن</string>
+    <string name="zipcode">کد پستی</string>
+    <string name="gh1">قوانین را قبول میکنم</string>
+    <string name="newsup">من را از اخرین اخبار با خبر کن</string>
+    <string name="gender">جنسیت</string>
+    <string name="mard">مرد</string>
+    <string name="zan">زن</string>
+</resources>

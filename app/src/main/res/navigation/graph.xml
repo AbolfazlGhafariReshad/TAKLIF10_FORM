@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/singup">
+
+    <fragment
+        android:id="@+id/singup"
+        android:name="com.example.appsignup.singup"
+        android:label="fragment_singup"
+        tools:layout="@layout/fragment_singup" >
+        <action
+            android:id="@+id/action_singup_to_showinfo"
+            app:destination="@id/showinfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/showinfo"
+        android:name="com.example.appsignup.showinfo"
+        android:label="fragment_showinfo">
+        <argument
+            android:name="info"
+            app:argType="string" />
+        <argument
+            android:name="info2"
+            app:argType="string" />
+        <argument
+            android:name="info3"
+            app:argType="string" />
+        <argument
+            android:name="info4"
+            app:argType="string" />
+        <argument
+            android:name="inforb"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="lname"
+            app:argType="string" />
+        <argument
+            android:name="zipcode"
+            app:argType="string" />
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument android:name="month"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+    </fragment>
+</navigation>
